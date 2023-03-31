@@ -350,3 +350,7 @@ MigrationBackup/
 .ionide/
 /Tarteeb.Api/appsettings.Development.json
 /Tarteeb.Api/appsettings.Development.json
+.vscode/settings.json
+.gitignore
+.vscode/tasks.json
+.vscode/launch.json
