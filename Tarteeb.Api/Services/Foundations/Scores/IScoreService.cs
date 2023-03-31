@@ -11,6 +11,8 @@ namespace Tarteeb.Api.Services.Foundations.Scores
 {
     public interface IScoreService
     {
-        ValueTask<Score> RemoveScoreByIdAsync(Guid scoreId);
+        ValueTask<Score> AddScoreAsync(Score score);
+        ValueTask<Score> RemoveScoreByIdAsync(Guid scoreId); 
+        
     }
 }
