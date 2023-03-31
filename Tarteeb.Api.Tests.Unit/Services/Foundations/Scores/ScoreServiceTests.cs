@@ -48,6 +48,10 @@ namespace Tarteeb.Api.Tests.Unit.Services.Foundations.Scores
 
         private static Score CreatRandomScore() =>
             CreateScoreFiller(GetRandomDateTime()).Create();
+        
+        private static Score CreateRandomScore(DateTimeOffset dates) =>
+            CreateScoreFiller(dates).Create();
+
 
         private static Filler<Score> CreateScoreFiller(DateTimeOffset dates)
         {
